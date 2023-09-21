@@ -1,1 +1,1 @@
-A counter app built using react
+A travel-planner app built using react
