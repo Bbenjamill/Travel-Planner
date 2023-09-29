@@ -11,7 +11,7 @@ const Footer = ({planner}) => {
  )
 const packedItem = planner.length;
 const percentagePacked = planner.filter(item => item.packed).length;
-const calculatedPacked = (percentagePacked/packedItem * 100)
+const calculatedPacked = Math.round(percentagePacked/packedItem * 100)
   return (
     <div className='stats'>
      

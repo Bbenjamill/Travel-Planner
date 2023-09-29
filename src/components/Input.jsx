@@ -28,7 +28,7 @@ const Input = ({planner, setPlanner}) => {
       <input type="text" placeholder='item' value={input} onChange={(e)=>setInput(e.target.value)}/>
       <button>Add</button>
 
-     
+      <p>{select}{input}</p>
      </form>
      </div>
   )

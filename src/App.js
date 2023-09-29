@@ -10,9 +10,9 @@ import { useState } from 'react';
 function App() {
   const [planner, setPlanner] = useState([])
 
-  // function handleAddItem(){
+  function handleAddItem(){
 
-  // }
+  }
 
   return (
   <div className='app'>
